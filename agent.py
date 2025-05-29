@@ -13,7 +13,7 @@ import traceback
 from pathlib import Path
 from openai import OpenAI
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBu6JPs4IF-0H4TK6r0ecADHB6jcs34UPA")
+genai.configure(api_key="your_api_key")
 
 class DefectType(Enum):
     """Comprehensive defect types for Python programs"""

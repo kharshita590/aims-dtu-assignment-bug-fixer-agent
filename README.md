@@ -27,5 +27,5 @@ This project evaluates and compares the performance of different language models
 To evaluate the generated code using test cases, run the following command:
 
 ```bash
-pytest gemini_testcases/ --correct
+pytest gemini_program_testcases/ --correct
 
